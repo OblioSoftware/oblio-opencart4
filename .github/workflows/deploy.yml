@@ -31,7 +31,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: './packaging'
-          target-directory: './opencart'
+          target-directory: './opencart4'
           destination-github-username: 'OblioSoftware'
           destination-repository-name: 'builds'
           target-branch: main
